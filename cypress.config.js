@@ -1,13 +1,13 @@
 import { defineConfig } from "cypress";
 
 export default defineConfig({
+  // baseUrl:"http://127.0.0.1:5500/index.html",
   e2e: {
+    // baseUrl:"http://127.0.0.1:5500/index.html",
+    baseUrl:"https://gouravsh4225.github.io/v2-portfolio/",
     setupNodeEvents(on, config) {
-      e2e: {
-        baseUrl: "http://localhost:5173";
+        // baseUrl: "https://gouravsh4225.github.io/v2-portfolio/";
+        // baseUrl: "http://127.0.0.1:5500/index.html";
       }
-      console.info("hey--> in config file");
-      // implement node event listeners here
-    },
   },
 });
