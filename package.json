@@ -15,7 +15,7 @@
     "react-router-dom": "^6.8.1"
   },
   "devDependencies": {
-    "cypress": "^12.5.1",
+    "cypress": "^14.3.3",
     "mochawesome": "^7.1.3",
     "mochawesome-merge": "^4.3.0",
     "mochawesome-report-generator": "^6.2.0"
